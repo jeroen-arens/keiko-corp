@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
 });
 
-document.addEventListener("load", function (event) {
+window.addEventListener("load", function (event) {
     console.log('Page loaded');
     //wow.js on scroll animations initialization
     wow = new WOW(
