@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function (event) {
+    console.log('DOM loaded')
     //Navigation menu scrollTo
     $('header nav ul li a').click(function(event){
         event.preventDefault();
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 });
 
 document.addEventListener("loaded", function (event) {
+    console.log('Page loaded');
     //wow.js on scroll animations initialization
     wow = new WOW(
         {
